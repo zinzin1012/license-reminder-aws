@@ -157,7 +157,7 @@ else
     --db-instance-identifier "$DB_INSTANCE_ID" \
     --db-instance-class db.t4g.micro \
     --engine postgres \
-    --engine-version "16.4" \
+    --engine-version "16.9" \
     --master-username "$DB_MASTER_USER" \
     --master-user-password "$DB_MASTER_PASSWORD" \
     --allocated-storage 20 \
